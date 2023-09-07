@@ -5,6 +5,7 @@ import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 
 public class MyFiles {
+
     public static void displayDir(String path, int maxDepth) throws IOException {
         Path dirPath = Path.of(path).toAbsolutePath().normalize();
 

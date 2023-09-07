@@ -42,6 +42,7 @@ class FileSystemTests {
 
     }
     @Test
+
     void displayDirTest() throws IOException {
         MyFiles.displayDir("/Users/anatoliybystrov/Desktop/gitidea", 3);
     }
