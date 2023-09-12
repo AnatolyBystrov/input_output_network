@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf64496-14c5-493f-888e-058932c2edbc" name="Changes" comment="HW30" />
+    <list default="true" id="0bf64496-14c5-493f-888e-058932c2edbc" name="Changes" comment="HW30">
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/ByteStreamsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/CopyAppl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/io/MyFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/io/MyFiles.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2Uz5EfTEpYEM7agBMFC22EPKF3x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,7 +45,36 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FileSystemTests.displayDirTest">
+  <component name="RunManager" selected="Application.CopyAppl">
+    <configuration name="CopyAppl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="telran.io.test.CopyAppl" />
+      <module name="input-output-network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteStreamsTests.fileInputStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="input-output-network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.io.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.io.test.ByteStreamsTests" />
+      <option name="METHOD_NAME" value="fileInputStreamTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileSystemTests.displayDirTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="input-output-network" />
       <extension name="coverage">
@@ -72,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyAppl" />
+        <item itemvalue="JUnit.ByteStreamsTests.fileInputStreamTest" />
         <item itemvalue="JUnit.FileSystemTests.displayDirTest" />
         <item itemvalue="JUnit.FileSystemTests.test" />
       </list>
@@ -102,8 +141,27 @@
       <option name="project" value="LOCAL" />
       <updated>1694108525145</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW30">
+      <option name="closed" value="true" />
+      <created>1694108620240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694108620240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW30" />
