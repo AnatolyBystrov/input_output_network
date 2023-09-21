@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf64496-14c5-493f-888e-058932c2edbc" name="Changes" comment="HW30">
-      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/ByteStreamsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/CopyAppl.java" afterDir="false" />
+    <list default="true" id="0bf64496-14c5-493f-888e-058932c2edbc" name="Changes" comment="HW31">
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/CopmanyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/CompanyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/ObjectStreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telran/io/MyFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/io/MyFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/io/MyFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/ByteStreamsTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/CopyAppl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/FileSystemTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +25,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,16 +56,31 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_directory_selection": "/Users/anatoliybystrov/Desktop/gitidea/input-output-network/input-output-network/src/test/java/telran/io",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CopyAppl">
-    <configuration name="CopyAppl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.CopyAppl" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="telran.io" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="telran.io" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="telran.io" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Company_Test.testRestore">
+    <configuration name="CopyPerformanceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="telran.io.CopyPerformanceApp" />
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="PATTERN" value="telran.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteStreamsTests.fileInputStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Company_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +97,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="telran.io.test" />
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.ByteStreamsTests" />
-      <option name="METHOD_NAME" value="fileInputStreamTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="telran.io.test.Company_Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystemTests.displayDirTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Company_Test.testAddEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="telran.io.test" />
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.FileSystemTests" />
-      <option name="METHOD_NAME" value="displayDirTest" />
+      <option name="MAIN_CLASS_NAME" value="telran.io.test.Company_Test" />
+      <option name="METHOD_NAME" value="testAddEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystemTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Company_Test.testRestore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
@@ -100,19 +128,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="telran.io.test" />
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.FileSystemTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="telran.io.test.Company_Test" />
+      <option name="METHOD_NAME" value="testRestore" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="input-output-network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.io.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.io.test.ObjectStreamTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyAppl" />
-        <item itemvalue="JUnit.ByteStreamsTests.fileInputStreamTest" />
-        <item itemvalue="JUnit.FileSystemTests.displayDirTest" />
-        <item itemvalue="JUnit.FileSystemTests.test" />
+        <item itemvalue="JUnit.Company_Test.testRestore" />
+        <item itemvalue="JUnit.Company_Test" />
+        <item itemvalue="JUnit.Company_Test.testAddEmployee" />
+        <item itemvalue="JUnit.ObjectStreamTest" />
+        <item itemvalue="Application.CopyPerformanceApp" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694108620240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW31">
+      <option name="closed" value="true" />
+      <created>1694535750817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535750817</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +209,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="EmployesAPP" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -165,6 +229,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW30" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW30" />
+    <MESSAGE value="HW31" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW31" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/telran/io/test/CompanyTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
