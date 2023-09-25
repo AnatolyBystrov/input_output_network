@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf64496-14c5-493f-888e-058932c2edbc" name="Changes" comment="HW31">
-      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/CopmanyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/CompanyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/ObjectStreamTest.java" afterDir="false" />
+    <list default="true" id="0bf64496-14c5-493f-888e-058932c2edbc" name="Changes" comment="HW33">
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/dto/DepartmentSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/dto/SalaryDistribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/CompanyImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telran/io/MyFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/ByteStreamsTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/CopyAppl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/FileSystemTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/employees/service/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/employees/service/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/employees/service/CopmanyImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/employees/service/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/employees/dto/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/CompanyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/telran/employees/test/CompanyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/io/test/ObjectStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/telran/io/test/ObjectStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,16 +72,18 @@
       <recent name="telran.io" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Company_Test.testRestore">
-    <configuration name="CopyPerformanceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="telran.io.CopyPerformanceApp" />
+  <component name="RunManager" selected="JUnit.CompanyTests">
+    <configuration name="CompanyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telran.io.*" />
+          <option name="PATTERN" value="telran.employees.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="telran.employees.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.employees.test.CompanyTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,12 +92,12 @@
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="PATTERN" value="telran.employees.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="telran.io.test" />
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.Company_Test" />
+      <option name="PACKAGE_NAME" value="telran.employees.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.employees.test.Company_Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,12 +107,12 @@
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="PATTERN" value="telran.employees.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="telran.io.test" />
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.Company_Test" />
+      <option name="PACKAGE_NAME" value="telran.employees.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.employees.test.Company_Test" />
       <option name="METHOD_NAME" value="testAddEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -123,12 +123,12 @@
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="PATTERN" value="telran.employees.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="telran.io.test" />
-      <option name="MAIN_CLASS_NAME" value="telran.io.test.Company_Test" />
+      <option name="PACKAGE_NAME" value="telran.employees.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.employees.test.Company_Test" />
       <option name="METHOD_NAME" value="testRestore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -139,7 +139,7 @@
       <module name="input-output-network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="telran.io.test.*" />
+          <option name="PATTERN" value="telran.employees.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Company_Test.testRestore" />
+        <item itemvalue="JUnit.CompanyTests" />
         <item itemvalue="JUnit.Company_Test" />
+        <item itemvalue="JUnit.Company_Test.testRestore" />
         <item itemvalue="JUnit.Company_Test.testAddEmployee" />
         <item itemvalue="JUnit.ObjectStreamTest" />
-        <item itemvalue="Application.CopyPerformanceApp" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694535750817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW33">
+      <option name="closed" value="true" />
+      <created>1695315343173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695315343173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,17 +238,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW30" />
     <MESSAGE value="HW31" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW31" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/telran/io/test/CompanyTest.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="HW33" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW33" />
   </component>
 </project>

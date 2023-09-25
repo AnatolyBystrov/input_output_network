@@ -1,42 +1,38 @@
 package telran.employees.service;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.util.ArrayList;
+import telran.employees.dto.*;
 import java.util.List;
-
-import telran.employees.service.Employee;
-
+import java.io.*;
 
 public interface Company {
-    boolean addEmployee(Employee eml);
+    boolean addEmployee(Employee empl);
     Employee removeEmployee(long id);
     Employee getEmployee(long id);
     List<Employee> getEmployees();
-    default void restore(String dataFile) throws ClassNotFoundException
-    {
 
-        try(ObjectInputStream input = new ObjectInputStream(new FileInputStream(dataFile)))
-        {
-            List <Employee> employees = (List <Employee>) input.readObject();
+    default void restore(String dataFile) {
+        try (ObjectInputStream input = new ObjectInputStream(new FileInputStream(dataFile))) {
+            List<Employee> employees = (List<Employee>) input.readObject();
             employees.forEach(this::addEmployee);
-        } catch (IOException e) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
 
-    default void save(String dataFile)
-    {
-        try(ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream(dataFile)))
-        {
-            List <Employee> employees = getEmployees();
+    default void save(String dataFile) {
+        try (ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream(dataFile))) {
+            List<Employee> employees = getEmployees();
             output.writeObject(employees);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
+    List<DepartmentSalary> getDepartmentSalaryDistribution();
+    List<SalaryDistribution> getSalaryDistribution(int interval);
+    List<Employee> getEmployeesByDepartment(String department);
+    List<Employee> getEmployeesBySalary(int salaryFrom, int salaryTo);
+    List<Employee> getEmployeesByAge(int ageFrom, int ageTo);
+    Employee updateSalary(long id, int newSalary);
+    Employee updateDepartment(long id, String department);
 }
